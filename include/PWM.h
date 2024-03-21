@@ -11,10 +11,10 @@
 #define FAN_IO 32
 
 
-#define kp 4.5
-#define ki 1.0
-#define ki_high 3.0 
-#define kd 30.0
+#define kp 8.5
+#define ki 1.4
+#define ki_high 1.4
+#define kd 27.0
 
 
 #define OFF 0
