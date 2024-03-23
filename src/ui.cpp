@@ -336,16 +336,16 @@ void UI::page3_key(ec11_task_result_type ec_type, int16_t ec_value) //界面3按
                 {
                 case 0:
                     curve_temp_buf[0] += ec_value;
-                    if (curve_temp_buf[0] < 110)
-                        curve_temp_buf[0] = 110;
+                    if (curve_temp_buf[0] < 100)
+                        curve_temp_buf[0] = 100;
                     else if (curve_temp_buf[0] > 200)
                         curve_temp_buf[0] = 200;
                     break;
 
                 case 1:
                     curve_temp_buf[1] += ec_value;
-                    if (curve_temp_buf[1] < 60)
-                        curve_temp_buf[1] = 60;
+                    if (curve_temp_buf[1] < 30)
+                        curve_temp_buf[1] = 30;
                     else if (curve_temp_buf[1] > 120)
                         curve_temp_buf[1] = 120;
                     break;
@@ -360,8 +360,8 @@ void UI::page3_key(ec11_task_result_type ec_type, int16_t ec_value) //界面3按
 
                 case 3:
                     curve_temp_buf[3] += ec_value;
-                    if (curve_temp_buf[3] < 30)
-                        curve_temp_buf[3] = 30;
+                    if (curve_temp_buf[3] < 10)
+                        curve_temp_buf[3] = 10;
                     else if (curve_temp_buf[3] > 90)
                         curve_temp_buf[3] = 90;
                     break;
